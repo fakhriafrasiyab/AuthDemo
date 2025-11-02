@@ -1,0 +1,75 @@
+# gitignore for Java / Spring Boot (Maven) + IntelliJ IDEA on macOS
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Maven generated and temporary
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Build outputs
+*.class
+*.jar
+*.war
+*.ear
+build/
+dist/
+generated/
+
+# Logs and runtime files
+*.log
+logs/
+hs_err_pid*
+*.pid
+
+# Spring / secrets / keystores
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+
+# Test / coverage
+jacoco.exec
+coverage/
+*.coverage
+*.lcov
+
+# IDEs and editors
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS thumbnails, caches
+Thumbs.db
+ehthumbs.db
+
+# Node artifacts (if present)
+node_modules/
+
+# Misc
+.recommenders
+*.log.*
+*.seed
+credentials/
+secrets/

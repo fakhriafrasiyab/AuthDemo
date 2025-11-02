@@ -1,0 +1,8 @@
+# .gitattributes
+* text=auto
+# keep shell scripts LF
+*.sh text eol=lf
+mvnw text eol=lf
+# Windows batch files should be CRLF
+*.cmd text eol=crlf
+mvnw.cmd text eol=crlf
